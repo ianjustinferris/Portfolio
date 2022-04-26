@@ -4,6 +4,7 @@ body {
 
 .navbar {
   color: black;
+  /* border-bottom: 3px solid black; */
 }
 
 h1 {
@@ -47,4 +48,17 @@ a {
 
 a:hover {
   color: black;
+}
+
+#heroImg {
+  position: relative;
+  right: -23vw;
+  opacity: 10%;
+}
+
+#heroTitle {
+  position: relative;
+  left: -40vw;
+  font-size: 5vw;
+  top: 5vw;
 }
