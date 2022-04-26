@@ -1,8 +1,5 @@
 body {
-  /* background-color: #181880;
-  opacity: 0.7;
-  background-image: radial-gradient(#1520e0 0.5px, #181880 0.5px);
-  background-size: 10px 10px; */
+  background-color: #807918;
 
   border-radius: 500px;
 
@@ -15,25 +12,9 @@ body {
   /* border-bottom: 3px solid black; */
 }
 
-.IJF {
-  color: black;
-  margin-left: 1vw;
-}
-
 span {
   color: rgb(255, 0, 0);
 }
-
-/* @media (print), (prefers-reduced-motion: reduce) {
-  .animated {
-    -webkit-animation-duration: 1ms !important;
-    animation-duration: 1ms !important;
-    -webkit-transition-duration: 1ms !important;
-    transition-duration: 1ms !important;
-    -webkit-animation-iteration-count: 1 !important;
-    animation-iteration-count: 1 !important;
-  }
-} */
 
 .animate__animated.animate__fadeIn {
   --animate-duration: 3s;
@@ -58,11 +39,11 @@ a:hover {
   color: black;
 }
 
-#heroImg {
+/* #heroImg {
   position: relative;
   right: -24vw;
   opacity: 10%;
-}
+} */
 
 #heroTitle {
   color: #fff;
@@ -92,9 +73,9 @@ a:hover {
 }
 
 .proj3ctsTitleContainer {
-  height: 60vw;
+  height: 70vw;
   border-bottom-left-radius: 50%;
-  background: rgb(46, 51, 63);
-  padding: 0px;
-  margin: none;
+  background: rgb(94, 142, 148);
+  /* padding: 0px; */
+  /* margin: none; */
 }
