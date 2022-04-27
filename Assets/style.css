@@ -1,6 +1,5 @@
 .navbar {
   color: black;
-  /* border-bottom: 3px solid black; */
 }
 
 span {
@@ -35,27 +34,18 @@ a:hover {
 #heroTitle {
   color: #fff;
   border-left: 0.3vw solid #ffff;
-  /* position: relative; */
-  /* left: 360px; */
   font-size: 2.8vw;
-  /* top: 100px; */
   padding: 2px;
 }
 
 .nameHero {
-  /* border-top: 2px solid black;
-  border-left: 2px solid black; */
-  /* position: relative; */
   font-size: 7vw;
-  /* left: 350px; */
   color: rgb(182, 182, 178);
-  /* top: 100px; */
 }
 
 #heroImgContainer {
   height: 40vw;
   border-bottom-left-radius: 50%;
-  /* border-bottom-right-radius: 50%; */
   background: rgb(46, 51, 63);
 }
 
@@ -67,10 +57,6 @@ a:hover {
 
 #img1 {
   cursor: pointer;
-  /* height: 15vw;
-  width: 15vw; */
-  /* margin-left: 50px;
-  margin-right: 5px; */
   border-radius: 50%;
   border: 0.75vw solid rgb(46, 51, 63);
 }
@@ -80,19 +66,22 @@ a:hover {
   font-size: 1.7vw;
 }
 
-#project1Description {
-  /* margin-left: 70px; */
-}
+/* #project1Description {
+  margin-left: 70px;
+} */
 
 #heroTitle1 {
   color: #fff;
   margin-left: 1vw;
   border-left: 0.3vw solid #ffff;
-  /* position: relative; */
-  /* left: 360px; */
-  font-size: 4vw;
-  /* top: 100px; */
+  font-size: max(4vw, 20px);
   padding: 10px;
+}
+
+@media screen and (min-width: 2050px) {
+  #heroTitle1 {
+    font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+  }
 }
 
 #projectsTitleContainer2 {
@@ -109,26 +98,28 @@ a:hover {
 }
 
 .projectsHeader {
-  /* border-top: 2px solid black;
-  border-left: 2px solid black; */
-  /* position: relative; */
   font-size: 7vw;
-  /* left: 350px; */
   color: rgb(46, 51, 63);
-  /* top: 100px; */
 }
 
 .resumeHeader {
-  /* border-top: 2px solid black;
-  border-left: 2px solid black; */
-  /* position: relative; */
   font-size: 7vw;
-  /* left: 350px; */
   color: rgb(94, 142, 148);
-  /* top: 100px; */
 }
 
 #p2p {
   font-size: 2vw;
   color: rgb(46, 51, 63);
+}
+
+#projectsTitleContainer3 {
+  color: rgb(46, 51, 63);
+  height: 45vw;
+  border-bottom-left-radius: 50%;
+  background: rgb(26, 66, 52);
+}
+
+.educationHeader {
+  font-size: 7vw;
+  color: rgb(179, 182, 31);
 }
