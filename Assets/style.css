@@ -4,7 +4,7 @@
 }
 
 span {
-  color: #fff;
+  color: rgb(46, 51, 63);
   font-size: 5vw;
   margin-top: 10px;
 }
@@ -97,13 +97,38 @@ a:hover {
 
 #projectsTitleContainer2 {
   color: rgb(94, 142, 148);
-  height: 50vw;
+  height: 45vw;
   border-bottom-left-radius: 50%;
-  background: rgb(17, 53, 20);
+  background: rgb(179, 182, 31);
 }
 
 .fa-github {
   cursor: pointer;
   color: rgb(46, 51, 63);
   font-size: 50px;
+}
+
+.projectsHeader {
+  /* border-top: 2px solid black;
+  border-left: 2px solid black; */
+  /* position: relative; */
+  font-size: 7vw;
+  /* left: 350px; */
+  color: rgb(46, 51, 63);
+  /* top: 100px; */
+}
+
+.resumeHeader {
+  /* border-top: 2px solid black;
+  border-left: 2px solid black; */
+  /* position: relative; */
+  font-size: 7vw;
+  /* left: 350px; */
+  color: rgb(94, 142, 148);
+  /* top: 100px; */
+}
+
+#p2p {
+  font-size: 2vw;
+  color: rgb(46, 51, 63);
 }
