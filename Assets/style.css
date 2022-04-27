@@ -4,7 +4,9 @@
 }
 
 span {
-  color: rgb(255, 0, 0);
+  color: #fff;
+  font-size: 5vw;
+  margin-top: 10px;
 }
 
 .animate__animated.animate__fadeIn {
@@ -35,7 +37,7 @@ a:hover {
   border-left: 0.3vw solid #ffff;
   /* position: relative; */
   /* left: 360px; */
-  font-size: 3vw;
+  font-size: 2.8vw;
   /* top: 100px; */
   padding: 2px;
 }
@@ -58,7 +60,7 @@ a:hover {
 }
 
 #projectsTitleContainer1 {
-  height: 70vw;
+  height: 50vw;
   border-bottom-left-radius: 50%;
   background: rgb(94, 142, 148);
 }
@@ -74,7 +76,8 @@ a:hover {
 }
 
 #p1p {
-  font-size: 1.5vw;
+  line-height: 1.5;
+  font-size: 1.7vw;
 }
 
 #project1Description {
@@ -87,7 +90,20 @@ a:hover {
   border-left: 0.3vw solid #ffff;
   /* position: relative; */
   /* left: 360px; */
-  font-size: 3vw;
+  font-size: 4vw;
   /* top: 100px; */
-  /* padding: 2px; */
+  padding: 10px;
+}
+
+#projectsTitleContainer2 {
+  color: rgb(94, 142, 148);
+  height: 50vw;
+  border-bottom-left-radius: 50%;
+  background: rgb(17, 53, 20);
+}
+
+.fa-github {
+  cursor: pointer;
+  color: rgb(46, 51, 63);
+  font-size: 50px;
 }
