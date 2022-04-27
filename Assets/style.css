@@ -1,12 +1,3 @@
-body {
-  background-color: #807918;
-
-  border-radius: 500px;
-
-  font-family: "DM Sans", sans-serif;
-  z-index: -3;
-}
-
 .navbar {
   color: black;
   /* border-bottom: 3px solid black; */
@@ -39,12 +30,6 @@ a:hover {
   color: black;
 }
 
-/* #heroImg {
-  position: relative;
-  right: -24vw;
-  opacity: 10%;
-} */
-
 #heroTitle {
   color: #fff;
   border-left: 0.3vw solid #ffff;
@@ -52,7 +37,7 @@ a:hover {
   /* left: 360px; */
   font-size: 3vw;
   /* top: 100px; */
-  padding: 8px;
+  padding: 2px;
 }
 
 .nameHero {
@@ -72,10 +57,37 @@ a:hover {
   background: rgb(46, 51, 63);
 }
 
-.proj3ctsTitleContainer {
+#projectsTitleContainer1 {
   height: 70vw;
   border-bottom-left-radius: 50%;
   background: rgb(94, 142, 148);
-  /* padding: 0px; */
-  /* margin: none; */
+}
+
+#img1 {
+  cursor: pointer;
+  /* height: 15vw;
+  width: 15vw; */
+  /* margin-left: 50px;
+  margin-right: 5px; */
+  border-radius: 50%;
+  border: 0.75vw solid rgb(46, 51, 63);
+}
+
+#p1p {
+  font-size: 1.5vw;
+}
+
+#project1Description {
+  /* margin-left: 70px; */
+}
+
+#heroTitle1 {
+  color: #fff;
+  margin-left: 1vw;
+  border-left: 0.3vw solid #ffff;
+  /* position: relative; */
+  /* left: 360px; */
+  font-size: 3vw;
+  /* top: 100px; */
+  /* padding: 2px; */
 }
