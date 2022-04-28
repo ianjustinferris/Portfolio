@@ -1,0 +1,164 @@
+body {
+  background-color: rgb(153, 173, 168);
+}
+.nav-link {
+  cursor: pointer;
+}
+.main {
+  /* max-width: 1000px; */
+}
+a {
+  color: red;
+  text-decoration: none;
+  all: unset;
+}
+
+a:hover {
+  color: black;
+}
+
+.navbar {
+  color: black;
+}
+
+.fa-github {
+  cursor: pointer;
+  color: rgb(46, 51, 63);
+  font-size: 50px;
+}
+
+.triangle {
+  margin-top: 5vw;
+  padding: 0;
+
+  width: 0;
+  height: 0;
+  border-left: 50vw solid transparent;
+  border-right: 50vw solid transparent;
+
+  border-bottom: 86.60254vw solid rgb(240, 127, 14);
+}
+
+.innerTriangle {
+  /* box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px; */
+  margin-top: 1.3vw;
+  padding: 0;
+
+  width: 0;
+  height: 0;
+  border-left: 48.7vw solid transparent;
+  border-right: 48.7vw solid transparent;
+
+  border-bottom: 84.60254vw solid rgb(202, 186, 47);
+}
+
+.circle {
+  margin-top: 112.9vw;
+  padding: 0px;
+  width: 56.3vw;
+  height: 56.3vw;
+  border-radius: 50%;
+  border: 1vw solid rgb(207, 130, 5);
+}
+
+.square {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 7.9vw;
+  padding: 0px;
+  width: 38.5vw;
+  height: 38.5vw;
+  border: 1vw solid rgb(54, 105, 54);
+}
+
+.animate__animated.animate__slideInDown {
+  --animate-duration: 4s;
+}
+
+.animate__animated.animate__slideInRight {
+  --animate-duration: 4s;
+}
+
+.animate__animated.animate__slideInLeft {
+  --animate-duration: 4s;
+}
+
+.animate__animated.animate__slideInUp {
+  --animate-duration: 4s;
+}
+
+.animate__animated.animate__rubberBand {
+  --animate-duration: 1s;
+}
+
+#initials {
+  font-size: 5vw;
+  margin-left: 2vw;
+}
+
+#projectsHeader {
+  transform: rotate(65deg);
+  font-size: 5vw;
+  padding: 0;
+  margin-left: -25vw;
+  color: #fff;
+}
+
+#aboutHeader {
+  font-size: 5vw;
+  padding: 0;
+  margin-right: -10vw;
+  transform: rotate(270deg);
+  color: #fff;
+}
+
+#contactHeader {
+  font-size: 5vw;
+  padding: 0;
+  margin-right: 10vw;
+  transform: rotate(90deg);
+  color: #fff;
+}
+
+#resumeHeader {
+  font-size: 5vw;
+  padding: 0;
+  margin-right: -10vw;
+  /* transform: rotate(180deg); */
+  color: #fff;
+}
+
+.ohNiceShow {
+  display: block;
+  font-size: 10vw;
+  margin-top: -10px;
+  margin-right: 35vw;
+
+  color: #fff;
+}
+
+.triangleChaos {
+  margin-right: 40vw;
+  margin-top: 20vw;
+}
+
+.circleChaos {
+  margin-right: 20vw;
+  margin-top: 20vw;
+  z-index: -2;
+  display: none;
+}
+
+.innerTriangleChaos {
+  margin-right: -28vw;
+  margin-top: 10vw;
+}
+
+.squareChaos {
+  width: 10000px;
+  background-color: rgb(54, 105, 54);
+  /* margin-right: 50vw; */
+  margin-top: 70vw;
+}
