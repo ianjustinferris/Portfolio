@@ -19,22 +19,11 @@ var ohNiceEl = document.querySelector(".ohNice")
 var mainEl = document.querySelector(".main")
 
 
-hideOhNice()
-function hideOhNice () {
-   ohNiceEl.style.display = 'none'
-}
 
 setTimeout(timeBomb,5500)
 
 setTimeout(wiggle,5000)
 
-setTimeout(timeBombInit,3000)
-
-// function chaosMode () {
-
-//     triangleEl.classList.add("animate__animated", "animate__slideOutRight", "triangleChaos")
-
-// }
 
 function wiggle () {
 
@@ -44,18 +33,19 @@ function wiggle () {
 }
 
 
-
-function timeBombInit () {
-    
-    setTimeout(hideOhNice,2000)
-    ohNiceEl.style.display ='block'
-    ohNiceEl.classList.add("ohNiceShow","animate__animated","animate__fadeIn" )
-    console.log("i ran")
-    console.log(ohNiceEl)
-}
-
-
 function timeBomb () {
+
+let div = document.createElement('div')
+
+div.classList.add("circleChaos", "col-12")
+
+mainEl.appendChild(div)
+
+let div2 = document.createElement('article')
+
+div2.classList.add("squareChaos", "col-12")
+
+mainEl.appendChild(div2)
 
 triangleEl.classList.add("triangleChaos")
 
@@ -65,6 +55,7 @@ circleEl.style.display= 'none'
 
 squareEl.classList.add("squareChaos", "container-fluid")
 
+console.log('timeBomb ran')
 
 }
 

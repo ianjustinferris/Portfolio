@@ -54,6 +54,7 @@ a:hover {
 }
 
 .circle {
+  background-color: rgb(177, 111, 100);
   margin-top: 112.9vw;
   padding: 0px;
   width: 56.3vw;
@@ -63,6 +64,7 @@ a:hover {
 }
 
 .square {
+  background-color: rgb(54, 105, 54);
   display: flex;
   justify-content: center;
 
@@ -140,25 +142,36 @@ a:hover {
 }
 
 .triangleChaos {
-  margin-right: 40vw;
+  margin-right: -65vw;
   margin-top: 20vw;
 }
 
 .circleChaos {
-  margin-right: 20vw;
-  margin-top: 20vw;
-  z-index: -2;
-  display: none;
+  background-color: rgb(177, 111, 100);
+  position: relative;
+  padding: 0px;
+  width: 56.3vw;
+  height: 56.3vw;
+  border-radius: 50%;
+  border: 1vw solid rgb(207, 130, 5);
+  margin-right: -60vw;
+  margin-top: -40vw;
+  z-index: -1000;
 }
 
 .innerTriangleChaos {
-  margin-right: -28vw;
+  margin-right: -33vw;
   margin-top: 10vw;
 }
 
 .squareChaos {
-  width: 10000px;
+  position: relative;
+  padding: 0px;
+  width: 100vw;
+  height: 38.5vw;
+  border: 1vw solid rgb(54, 105, 54);
+  border-top: 30px solid rgb(4, 104, 4);
   background-color: rgb(54, 105, 54);
-  /* margin-right: 50vw; */
-  margin-top: 70vw;
+  margin-top: 100vw;
+  margin-right: 31.5vw;
 }
