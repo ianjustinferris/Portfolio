@@ -41,7 +41,7 @@ a:hover {
 #heroTitle {
   color: #fff;
   border-left: 0.3vw solid #ffff;
-  font-size: 2.8vw;
+  font-size: 3.2vw;
   padding: 2px;
 }
 
@@ -57,20 +57,24 @@ a:hover {
 }
 
 #projectsTitleContainer1 {
-  height: 50vw;
+  height: 65vw;
   border-bottom-left-radius: 50%;
   background: rgb(54, 97, 122);
 }
 
 #img1 {
+  margin-left: 15vw;
+  /* position: relative; */
   cursor: pointer;
   border-radius: 50%;
-  border: 0.75vw solid rgb(46, 51, 63);
+  border: 0.75vw solid rgb(10, 11, 75);
+  /* left: 400px; */
 }
 
 #p1p {
   line-height: 1.5;
-  font-size: 1.7vw;
+  font-size: 2.3vw;
+  color: #fff;
 }
 
 /* #project1Description {
@@ -78,18 +82,19 @@ a:hover {
 } */
 
 #heroTitle1 {
-  color: #fff;
+  margin-top: 1vw;
+  color: rgb(224, 200, 154);
   margin-left: 1vw;
   border-left: 0.3vw solid #ffff;
-  font-size: max(4vw, 20px);
-  padding: 10px;
+  font-size: 4vw;
+  padding: 5px;
 }
 
-@media screen and (min-width: 2050px) {
+/* @media screen and (min-width: 2050px) {
   #heroTitle1 {
     font-size: calc(16px + 6 * ((100vw - 320px) / 680));
   }
-}
+} */
 
 #projectsTitleContainer2 {
   color: rgb(94, 142, 148);
@@ -106,7 +111,7 @@ a:hover {
 
 .projectsHeader {
   font-size: 7vw;
-  color: rgb(224, 200, 154);
+  color: rgb(207, 136, 5);
 }
 
 .resumeHeader {
@@ -318,4 +323,20 @@ a:hover {
 
 #nameHeader {
   color: rgb(26, 26, 51);
+}
+
+.letter1,
+.letter2,
+.letter3,
+.letter4,
+.letter5,
+.letter6,
+.letter7 {
+  font-size: 5vw;
+}
+
+.letter1 {
+  width: 2vw;
+  height: 5vw;
+  background-color: black;
 }

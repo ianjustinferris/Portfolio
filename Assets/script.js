@@ -52,8 +52,10 @@ div.classList.add("circleChaos", "col-12")
 
 mainEl.appendChild(div)
 
-var circleChaosEl = document.querySelector(".circleChaos")
+circleChaosEl = document.querySelector(".circleChaos")
+
 console.log(circleChaosEl)
+
 let div2 = document.createElement('article')
 
 div2.classList.add("squareChaos", "col-12")
@@ -70,7 +72,6 @@ squareEl.classList.add("squareChaos", "container-fluid")
 
 console.log('timeBomb ran')
 
-return circleChaosEl
 
 }
 
