@@ -1,5 +1,6 @@
 body {
   background-color: rgb(153, 173, 168);
+  /* background-color: rgb(153, 173, 168); */
 }
 .nav-link {
   cursor: pointer;
@@ -171,11 +172,11 @@ a:hover {
   position: relative;
   padding: 0px;
   width: 100vw;
-  height: 38.5vw;
+  height: 62vw;
   border: 1vw solid rgb(10, 11, 75);
   border-top: 30px solid rgb(10, 11, 75);
   background-color: rgb(10, 11, 75);
   /* background-color: rgb(54, 105, 54); */
   margin-top: 100vw;
-  margin-right: 31.5vw;
+  margin-right: 31.3vw;
 }
