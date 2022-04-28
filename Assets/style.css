@@ -2,6 +2,9 @@ body {
   background-color: rgb(153, 173, 168);
 }
 
+/* .main {
+  height: 100vh;
+} */
 .navbar {
   color: black;
 }
@@ -50,13 +53,13 @@ a:hover {
 #heroImgContainer {
   height: 40vw;
   border-bottom-left-radius: 50%;
-  background: rgb(46, 51, 63);
+  background: rgb(10, 11, 75);
 }
 
 #projectsTitleContainer1 {
   height: 50vw;
   border-bottom-left-radius: 50%;
-  background: rgb(94, 142, 148);
+  background: rgb(54, 97, 122);
 }
 
 #img1 {
@@ -103,7 +106,7 @@ a:hover {
 
 .projectsHeader {
   font-size: 7vw;
-  color: rgb(46, 51, 63);
+  color: rgb(224, 200, 154);
 }
 
 .resumeHeader {
@@ -126,4 +129,193 @@ a:hover {
 .educationHeader {
   font-size: 7vw;
   color: rgb(179, 182, 31);
+}
+
+body {
+  background-color: rgb(153, 173, 168);
+  /* background-color: rgb(153, 173, 168); */
+}
+.nav-link {
+  cursor: pointer;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+  all: unset;
+}
+
+a:hover {
+  color: black;
+}
+
+.navbar {
+  color: black;
+}
+
+.fa-github {
+  cursor: pointer;
+  color: rgb(46, 51, 63);
+  font-size: 50px;
+}
+
+.triangle {
+  margin-top: 5vw;
+  padding: 0;
+
+  width: 0;
+  height: 0;
+  border-left: 50vw solid transparent;
+  border-right: 50vw solid transparent;
+  border-bottom: 86.60254vw solid rgb(54, 97, 122);
+  /* border-bottom: 86.60254vw solid rgb(223, 125, 13); */
+  /* border-bottom: 86.60254vw solid rgb(240, 127, 14); */
+}
+
+.innerTriangle {
+  /* box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px; */
+  margin-top: 1.3vw;
+  padding: 0;
+
+  width: 0;
+  height: 0;
+  border-left: 48.7vw solid transparent;
+  border-right: 48.7vw solid transparent;
+
+  border-bottom: 84.60254vw solid rgb(31, 40, 122);
+  /* border-bottom: 84.60254vw solid rgb(202, 186, 47); */
+}
+
+.circle {
+  background-color: rgb(224, 200, 154);
+  /* background-color: rgb(177, 111, 100); */
+  margin-top: 112.9vw;
+  padding: 0px;
+  width: 56.3vw;
+  height: 56.3vw;
+  border-radius: 50%;
+  border: 1vw solid rgb(207, 130, 5);
+}
+
+.square {
+  background-color: rgb(10, 11, 75);
+  display: flex;
+  justify-content: center;
+
+  margin-top: 7.9vw;
+  padding: 0px;
+  width: 38.5vw;
+  height: 38.5vw;
+  border: 1vw solid rgb(10, 11, 75);
+}
+
+.animate__animated.animate__slideInDown {
+  --animate-duration: 4s;
+}
+
+.animate__animated.animate__slideInRight {
+  --animate-duration: 4s;
+}
+
+.animate__animated.animate__slideInLeft {
+  --animate-duration: 4s;
+}
+
+.animate__animated.animate__slideInUp {
+  --animate-duration: 4s;
+}
+
+.animate__animated.animate__rubberBand {
+  --animate-duration: 1s;
+}
+
+#initials {
+  font-size: 5vw;
+  margin-left: 2vw;
+}
+
+#projectsHeader {
+  transform: rotate(65deg);
+  font-size: 5vw;
+  padding: 0;
+  margin-left: -25vw;
+  color: #fff;
+}
+
+#aboutHeader {
+  font-size: 5vw;
+  padding: 0;
+  margin-right: -10vw;
+  transform: rotate(270deg);
+  color: #fff;
+}
+
+#contactHeader {
+  font-size: 5vw;
+  padding: 0;
+  margin-right: 10vw;
+  transform: rotate(90deg);
+  color: #fff;
+}
+
+#resumeHeader {
+  font-size: 5vw;
+  padding: 0;
+  margin-right: -10vw;
+  /* transform: rotate(180deg); */
+  color: #fff;
+}
+
+.ohNiceShow {
+  display: block;
+  font-size: 10vw;
+  margin-top: -10px;
+  margin-right: 35vw;
+
+  color: #fff;
+}
+
+.triangleChaos {
+  margin-right: -65vw;
+  margin-top: 20vw;
+}
+
+.circleChaos {
+  background-color: rgb(224, 200, 154);
+  position: relative;
+  padding: 0px;
+  width: 56.3vw;
+  height: 56.3vw;
+  border-radius: 50%;
+  border: 1vw solid rgb(207, 136, 5);
+  margin-right: -60vw;
+  margin-top: -40vw;
+  z-index: -1000;
+}
+
+.innerTriangleChaos {
+  margin-right: -33vw;
+  margin-top: 10vw;
+}
+
+.squareChaos {
+  position: relative;
+  padding: 0px;
+  width: 100vw;
+  height: 65vw;
+  border: 1vw solid rgb(10, 11, 75);
+  border-top: 10px solid rgb(44, 12, 104);
+  background-color: rgb(10, 11, 75);
+  /* background-color: rgb(54, 105, 54); */
+  margin-top: 100vw;
+  margin-right: 31.3vw;
+}
+
+/* #homeBtn:hover ~ .circleChaos {
+  background-color: black;
+} */
+
+#nameHeader {
+  color: rgb(26, 26, 51);
 }
