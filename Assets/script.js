@@ -22,12 +22,34 @@ var circleChaosEl
 
 var homeBtnEl = document.getElementById('homeBtn')
 
+var bodyEl = document.getElementsByTagName('body')
 
 homeBtnEl.addEventListener('mouseover',moonSet)
 
 function moonSet () {
-    circleChaosEl.classList.add("animate__animated","animate__bounceOutDown")
+circleChaosEl.classList.add("animate__animated","animate__bounceOutDown")
+setTimeout(lightsOut,600)
+setTimeout(console.log(circleChaosEl),4000)
+console.log('moonSet ran')
 }
+
+function lightsOut () {
+    document.body.style.backgroundColor = "black";
+    console.log('lightsOut ran')
+}
+
+
+// homeBtnEl.addEventListener('mouseout',moonRise)
+
+// function moonRise () {
+//  document.body.style.backgroundColor = "rgb(153, 173, 168)";
+//     circleChaosEl.classList.add("circleChaos", "col-12","animate__animated","animate__bounceInUp")
+
+//    console.log('moonRise ran')
+
+// }
+
+
 
 
 setTimeout(timeBomb,5500)
