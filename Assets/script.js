@@ -105,20 +105,22 @@ console.log('timeBomb ran')
 setTimeout(console.log(circleChaosEl),7000)
 
 
+//TO BE CONTINUED>>>>>>>
 
-const animationArray = ['animate__slideInDown','animate__slideInRight','animate__slideInLeft','animate__slideInUp']
 
-const about = 'Aspiring Full Stack Developer with a background in engineering and construction. Interested in solving everyday problems with creative and intuitive user interfaces.'
+// const animationArray = ['animate__slideInDown','animate__slideInRight','animate__slideInLeft','animate__slideInUp']
 
-const aboutArray = about.split('') 
+// const about = 'Aspiring Full Stack Developer with a background in engineering and construction. Interested in solving everyday problems with creative and intuitive user interfaces.'
 
-console.log(aboutArray)
+// const aboutArray = about.split('') 
 
-for (let i=0;i<aboutArray.length;i++){
+// console.log(aboutArray)
+
+// for (let i=0;i<aboutArray.length;i++){
   
-  p = document.createElement('p');
-  p.className = ('text','aboutMeText','animate__animated','animate__bounceOutDown');
-  p.innerHTML=aboutArray[i];
-  aboutMeEl.appendChild(p)
+//   p = document.createElement('p');
+//   p.className = ('text','aboutMeText','animate__animated','animate__bounceOutDown');
+//   p.innerHTML=aboutArray[i];
+//   aboutMeEl.appendChild(p)
 
-}
+// }
