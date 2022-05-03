@@ -24,6 +24,10 @@ var homeBtnEl = document.getElementById('homeBtn')
 
 var bodyEl = document.getElementsByTagName('body')
 
+var aboutMeEl = document.querySelector('.aboutMe')
+
+var p
+
 homeBtnEl.addEventListener('mouseover',moonSet)
 
 function moonSet () {
@@ -99,3 +103,22 @@ console.log('timeBomb ran')
 
 
 setTimeout(console.log(circleChaosEl),7000)
+
+
+
+const animationArray = ['animate__slideInDown','animate__slideInRight','animate__slideInLeft','animate__slideInUp']
+
+const about = 'Aspiring Full Stack Developer with a background in engineering and construction. Interested in solving everyday problems with creative and intuitive user interfaces.'
+
+const aboutArray = about.split('') 
+
+console.log(aboutArray)
+
+for (let i=0;i<aboutArray.length;i++){
+  
+  p = document.createElement('p');
+  p.className = ('text','aboutMeText','animate__animated','animate__bounceOutDown');
+  p.innerHTML=aboutArray[i];
+  aboutMeEl.appendChild(p)
+
+}
